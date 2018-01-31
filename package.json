@@ -1,0 +1,14 @@
+{
+  "name": "chaordic-challenge",
+  "version": "1.0.0",
+  "description": "Chaordic job application challenge",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jhonatan Tomimatsu",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1"
+  }
+}
