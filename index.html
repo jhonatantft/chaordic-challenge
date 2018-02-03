@@ -2,10 +2,54 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0'/>
     <title>Title</title>
-    <script src="scripts.js"></script>
+    <link rel="shortcut icon" href="public/favicon/favicon.ico"/>
+    <link rel="stylesheet" href="public/css/style.min.css">
 </head>
 <body>
-    <h1>teste</h1>
+    <header>
+    </header>
+    <div class="container container-items">
+        <div class="line line--title">
+            <div class="col item-visited">
+                Você visitou:
+            </div>
+            <div class="col item-visited">
+                e talvez se interesse por:
+            </div>
+        </div>
+        <div class="line line--white line--item">
+            <div class="item-reference">
+                <a href="" class="item__href">
+                    <div class="item item-reference col">
+                        <div class="item__image--box">
+                            <img class="item-reference__image" src=""/>
+                        </div>
+                        <div class="item__name">
+                            <span class="item__name--span">
+                            </span>
+                        </div>
+                        <div class="item-reference__price">
+                            <div class="item__price--old price-tag"></div>
+                            <div class="item__price--new price-tag"></div>
+                            <div class="item__payment-conditions price-tag"></div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div id="wrap-item-recommendation" class="wrap-item-recommendation">
+                <div class="pagination-link">
+                    <a id="prev" class="arrow prev" href="#"></a>
+                </div>
+                <div id="item-recommendation" class="item-recommendation">
+                </div>
+                <div class="pagination-link">
+                    <a id="next" class="arrow next" href="#"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="public/js/script.min.js"></script>
 </body>
 </html>
