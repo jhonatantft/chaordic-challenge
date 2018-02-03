@@ -1,14 +1,15 @@
 {
   "name": "chaordic-challenge",
   "version": "1.0.0",
-  "description": "Chaordic job application challenge",
+  "description": "Chaordic front-end application challenge",
   "main": "app.js",
   "scripts": {
+    "start": "node app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Jhonatan Tomimatsu",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.17.1"
+    "node-minify": "^2.4.1"
   }
 }
