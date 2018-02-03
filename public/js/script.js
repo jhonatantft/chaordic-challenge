@@ -147,7 +147,7 @@
     renderRecommendationItem(getJsonpRecommendation())
   });
 
-  jsonpUrl.has('http://roberval.chaordicsystems.com/challenge/challenge.json?callback=X', {
+  jsonpUrl.has('https://gist.github.com/jhonatantft/856f2cf165793909eda1cc29f0554fa8.js', {
     jsonpCallbackName: 'X',
     ifSuccess: function(response){
       getJsonpResponse(response);
