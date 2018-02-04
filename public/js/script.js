@@ -147,7 +147,7 @@
     renderRecommendationItem(getJsonpRecommendation())
   });
 
-  jsonpUrl.has('https://goo.gl/bfpzSC', {
+  jsonpUrl.has('http://roberval.chaordicsystems.com/challenge/challenge.json?callback=X', {
     jsonpCallbackName: 'X',
     ifSuccess: function(response){
       getJsonpResponse(response);
