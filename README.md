@@ -15,4 +15,5 @@ The challenge is to craft a product showcase using nothing else than pure javasc
 > npm install
 > npm start
 
+http://localhost:8080/
 ```
