@@ -2,12 +2,6 @@
 
 The challenge is to craft a product showcase using nothing else than pure javascript, no frameworks allowed.
 
-### The requirements
-
-- Html code structure
-- Css structure
-- Interaction
-
 ## Getting Started
 
 ```
